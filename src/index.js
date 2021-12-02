@@ -5,7 +5,8 @@ import {BrowserRouter as Router} from "react-router-dom";
 
 ReactDOM.render(
     <Router>
-        Created by : Sodi Adikaram (Deakin University)
+        <p>A Copy of : https://threejs.org/examples/?q=panora#webxr_vr_panorama_depth</p>
+        Re-Created by : Sodi Adikaram (Deakin University)
         <App/>
     </Router>,
     document.getElementById("root")
