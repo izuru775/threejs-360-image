@@ -72,7 +72,7 @@ class App extends Component {
             renderer.xr.setReferenceSpaceType('local');
             document.body.appendChild(renderer.domElement);
 
-            document.body.appendChild(VRButton.createButton(renderer));
+            // document.body.appendChild(VRButton.createButton(renderer));
 
             //
 
