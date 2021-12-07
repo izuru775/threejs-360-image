@@ -70,7 +70,7 @@ class App extends Component {
 
       //Orbit Controls added 
       controls = new OrbitControls(camera, renderer.domElement);
-      camera.position.set(0, 5, 10);
+      camera.position.set(0, 10, 25);
       controls.update();
 
       // document.body.appendChild(VRButton.createButton(renderer));
